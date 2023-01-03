@@ -7,7 +7,7 @@ function Home() {
 
   return (
     <>
-      <main className="flex p-7 items-center md:flex-row sm:flex-col-reverse w-full h-full">
+      <main className="flex flex-col p-7 items-center md:flex-col sm:flex-col-reverse w-full h-full">
         <div>
           <h1 className="text-7xl sm:py-12 leading-normal ">
             Ready to experience the{" "}
