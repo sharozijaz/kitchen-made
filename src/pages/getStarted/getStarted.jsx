@@ -2,7 +2,7 @@ import {
   signInWithGooglePopup,
   createUserDocumentFromAuth,
 } from "../../utils/firebase/firebase";
-
+import SignUpForm from "../../components/sign-ip-form/sign-up-form.component";
 const Started = () => {
   const logGoogleUser = async () => {
     const user = await signInWithGooglePopup();
@@ -18,6 +18,7 @@ const Started = () => {
       >
         Sign Up
       </button>
+      <SignUpForm />
     </div>
   );
 };
